@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC');
 
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2)
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 body {
   background-color: black;
   font-family: 'IM Fell English SC', serif;
   font-size: 2rem;
+  overflow-x: hidden;
 }
 
 ul {
@@ -11,7 +32,21 @@ ul {
   padding-left: 0px;
 }
 
+#heading {
+  animation: pulse 1s infinite linear;
+}
+
 .card {
   background-color: #760a0a;
+  color: #ccc;
+}
+
+a {
   color: #1c8bc1;
+}
+
+img {
+  margin-top: 130px;
+  max-width: 40%;
+  animation: rotation 10s infinite linear;
 }
