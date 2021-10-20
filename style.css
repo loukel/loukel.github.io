@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC');
+
+body {
+  background-color: black;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.card {
+  background-color: #760a0a;
+  color: #1c8bc1;
+}
