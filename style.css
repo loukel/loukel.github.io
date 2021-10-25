@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC');
 
 @keyframes pulse {
-  from {
+  0% {
     transform: scale(1);
   }
 
-  to {
-    transform: scale(2)
+  50% {
+    transform: scale(2);
+  }
+  
+  100% {
+    transform: scale(1);
   }
 }
 
